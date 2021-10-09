@@ -37,7 +37,7 @@ You can find out more about what you're allowed to do with this code/project [he
  
  ### Downloading, Configuring & Running the Bot
  **Requirements:**
- - A PC running Windows, Mac or Linux and Java 8 or newer ([How to install Java?](https://www.java.com/de/download/help/download_options_de.html))
+ - A PC running Windows, Mac or Linux and Java 8 or newer ([How to install Java?](https://www.java.com/de/download/help/download_options_de.html))<br>
  *or*
  - A V-Server/VPS running a Linux Distribution like Debian or Ubuntu with Java 8 or newer ([How to install Java?](https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html))
 
