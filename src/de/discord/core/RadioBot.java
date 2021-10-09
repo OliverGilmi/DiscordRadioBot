@@ -157,7 +157,7 @@ public class RadioBot {
 			standardPrefix = this.botOptions.getString("prefix");
 		} else {
 			standardPrefix = "rb!";
-			System.out.println("[main] INFO Prefix not set! Using standard prefix");
+			System.out.println("[main] INFO Prefix not set! Using standard prefix \"rb!\"");
 		}
 
 		String version;
