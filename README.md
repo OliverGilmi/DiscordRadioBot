@@ -29,5 +29,10 @@ You can find out more about what you're allowed to do with this code/project [he
 6. Now that you've added a Bot, to your Application, decide, whether anyone should be able to add the bot to their server or not. If not, uncheck the precheked option.
  ![image](https://user-images.githubusercontent.com/64920118/136673811-06359d07-f690-411f-a89e-a956e82db6d0.png)
  
-7. In a new tab, open this site:
+7. In a new tab, open [this site](https://discordapi.com/permissions.html#8).<br>Paste the Application ID you copied in step 4 into the field `Insert client ID here`, afterwards click on the link below that.
+ ![image](https://user-images.githubusercontent.com/64920118/136673996-2be73e39-de9b-4b8e-b599-a4252f5e4233.png)
+
+8. Now select the server, you want to add your bot to, then click on `Continue`. Complete the other steps neccessary.
+ ![image](https://user-images.githubusercontent.com/64920118/136674048-ef3b4980-5ae9-41c6-8293-aeed289a5126.png)
+ 
 
