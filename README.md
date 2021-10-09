@@ -20,7 +20,7 @@ You can find out more about what you're allowed to do with this code/project [he
    You need to copy your bots Application ID, you will need it in step 7.
  ![image](https://user-images.githubusercontent.com/64920118/136673656-1337e9de-1aa8-4e37-a61c-776916a4584a.png)
 
-4. In the left sidebar, click on `Bot`, then click `Add Bot`.
+4. In the left sidebar, click on `Bot`, then click `Add Bot`.<br>
  ![image](https://user-images.githubusercontent.com/64920118/136673675-89175c9e-1c60-45f3-8ec6-9fce9093b5b6.png)
 
 5. Now click `Yes, do it!`.
