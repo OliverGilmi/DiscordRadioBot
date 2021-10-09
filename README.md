@@ -23,7 +23,7 @@ You can find out more about what you're allowed to do with this code/project [he
 4. In the left sidebar, click on `Bot`, then click `Add Bot`.
  ![image](https://user-images.githubusercontent.com/64920118/136673675-89175c9e-1c60-45f3-8ec6-9fce9093b5b6.png)
 
-5. Now click `Yes, do it!`.                 
+5. Now click `Yes, do it!`.                    
  ![image](https://user-images.githubusercontent.com/64920118/136673722-fce18150-6e38-40a5-98fa-127d705907f9.png)
 
 6. Now that you've added a Bot, to your Application, decide, whether anyone should be able to add the bot to their server or not. If not, uncheck the precheked option.
