@@ -8,7 +8,7 @@ public class SQLManager {
 
 		LiteSQL.onUpdate("CREATE TABLE IF NOT EXISTS setting(guildid INTEGER UNIQUE, setting BLOB)");
 
-		LiteSQL.onUpdate("CREATE TABLE IF NOT EXISTS radiostation(name VARCHAR UNIQUE, title VARCHAR, description VARCHAR, country VARCHAR)");
+		LiteSQL.onUpdate("CREATE TABLE IF NOT EXISTS radiostation(name VARCHAR UNIQUE, url VARCHAR, title VARCHAR, country VARCHAR)");
 
 		LiteSQL.onUpdate("CREATE TABLE IF NOT EXISTS support(memberid INTEGER, helpchannelid INTEGER, progress INTEGER, type VARCHAR)");
 

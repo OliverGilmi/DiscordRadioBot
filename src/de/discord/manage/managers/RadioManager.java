@@ -86,7 +86,7 @@ public class RadioManager {
 		radios.put(name, station);
 		countryStationList.get(country).add(station);
 
-		LiteSQL.preparedUpdate("INSERT INTO radiostation(name, url, title, description, logo, country) VALUES(?, ?, ?, ?)", name, url, title, country.name().toLowerCase());
+		LiteSQL.preparedUpdate("INSERT INTO radiostation(name, url, title, country) VALUES(?, ?, ?, ?)", name, url, title, country.name().toLowerCase());
 	}
 
 	public void addRadioV2(String cmd, String name, RadioStation.Country country, String url) {
@@ -94,7 +94,7 @@ public class RadioManager {
 		radios.put(cmd, station);
 		countryStationList.get(country).add(station);
 
-		LiteSQL.preparedUpdate("INSERT INTO radiostation(name, url, title, description, logo, country) VALUES(?, ?, ?, ?)", cmd, url, ":radio: Now playing: " + name, country.name().toLowerCase());
+		LiteSQL.preparedUpdate("INSERT INTO radiostation(name, url, title, country) VALUES(?, ?, ?, ?)", cmd, url, ":radio: Now playing: " + name, country.name().toLowerCase());
 	}
 
 	public void removeRadio(String name) {

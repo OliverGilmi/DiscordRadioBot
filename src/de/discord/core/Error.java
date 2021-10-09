@@ -142,7 +142,7 @@ public class Error {
 
     //EmbedBuilder-Standard-Layout
     final String desc = ":information_source: Error %id%\n%desc%";
-    final String foot = "If you're informing our Support about this issue, they might ask for the following details: \nError-ID: %id% | Module: %mod%\nGuild-ID: %g% | Channel-ID: %c%";
+    final String foot = "Error-ID: %id% | Module: %mod%\nGuild-ID: %g% | Channel-ID: %c%";
     final EmbedBuilder builder = new EmbedBuilder().setColor(0xff0000).setTitle("» An Error occurred!").setDescription(desc).setFooter(foot);
 
 

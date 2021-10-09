@@ -99,7 +99,7 @@ public class RadioBot {
 					jsonObject.put("prefix", "");
 					writer.write(jsonObject.toString(2));
 					writer.close();
-					System.out.println("[main] INFO Created setting.json File! For info check <link>");
+					System.out.println("[main] INFO Created setting.json File! For info check https://github.com/OliverGilmi/DiscordRadioBot/blob/main/README.md");
 				} else {
 					System.out.println("[main] ERROR An Error occured while creating the setting.json File, which is required.");
 				}
@@ -115,7 +115,7 @@ public class RadioBot {
 
 		this.botOptions = new JSONObject(new String(Files.readAllBytes(json.toPath()), StandardCharsets.UTF_8));
 		if (!(botOptions.has("token") && botOptions.has("name") && botOptions.has("version") && botOptions.has("owner") && botOptions.has("joinloggings") && botOptions.has("prefix") && botOptions.has("status"))) {
-			System.out.println("[main] ERROR settings.json is malformed! Check <link> for help on the settings.json");
+			System.out.println("[main] ERROR settings.json is malformed! Check https://github.com/OliverGilmi/DiscordRadioBot/blob/main/README.md for help on the settings.json");
 			System.out.println("[main] ERROR You can delete the settings.json in order to create a new settings.json file at the next start");
 			System.out.println("[main] INFO Shutting down in 5 Seconds!");
 

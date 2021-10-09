@@ -80,13 +80,13 @@ public class RadioCommand implements Command, SlashCommand, ButtonCommand {
                 }
                 String[] station = args[2].replace("`", "").split("\\|");
                 if (station.length != 4) {
-                    channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **101**\n:x: **Syntax incorrect!**").setFooter("If you're informing our Support about this issue, they might ask for the following details:\nError-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
+                    channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **101**\n:x: **Syntax incorrect!**").setFooter("Error-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
                     return;
                 }
 
                 RadioStation.Country country = RadioManager.countryMap.get(station[2].toLowerCase());
                 if (country == null) {
-                    channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **400**\n:x: **Invalid country!**\nThere is no country with that name. Please try again.").setFooter("If you're informing our Support about this issue, they might ask for the following details:\nError-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
+                    channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **400**\n:x: **Invalid country!**\nThere is no country with that name. Please try again.").setFooter("Error-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
                     return;
                 }
 
@@ -97,7 +97,7 @@ public class RadioCommand implements Command, SlashCommand, ButtonCommand {
                 if (args.length == 3 && args[2] != null) {
                     RadioStation station = RadioBot.INSTANCE.radioMan.radios.get(args[2]);
                     if (station == null) {
-                        channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **400**\n:x: **Invalid station!**\nThere is no station with that name. Please try again.").setFooter("If you're informing our Support about this issue, they might ask for the following details:\nError-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
+                        channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **400**\n:x: **Invalid station!**\nThere is no station with that name. Please try again.").setFooter("Error-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
                         return;
                     }
 
@@ -115,7 +115,7 @@ public class RadioCommand implements Command, SlashCommand, ButtonCommand {
 
                     RadioStation station = RadioBot.INSTANCE.radioMan.radios.get(args[2]);
                     if (station == null) {
-                        channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **400**\n:x: **Invalid station!**\nThere is no station with that name. Please try again.").setFooter("If you're informing our Support about this issue, they might ask for the following details:\nError-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
+                        channel.sendMessageEmbeds((new EmbedBuilder()).setColor(Color.red).setTitle("» An Error occurred!").setDescription(":information_source: Error **400**\n:x: **Invalid station!**\nThere is no station with that name. Please try again.").setFooter("Error-ID: 300 | Module: RADIOCOMMAND\nGuild-ID: " + m.getGuild().getId() + " | Channel-ID: " + channel.getId()).build(), new MessageEmbed[0]).queue();
                         return;
                     }
 
