@@ -52,7 +52,7 @@ public class Logger {
 
             stream = new PrintStream(new FileOutputStream(debugTxt));
 
-            out.write(b.toString().getBytes(), 0, b.toString().getBytes().length);
+            stream.write(b.toString().getBytes(), 0, b.toString().getBytes().length);
 
             System.out.println("[main] INFO Logger setuped.");
 
