@@ -124,7 +124,7 @@ Method 2:
 1. Double click the file. The Bot will start and should appear as `Online` on Discord. No window will be opened.
 2. To stop the Bot, you need to `End Task` via Task-Manager, which is not recommended because the Bot won't be able to save and shut down afterwards properly.
 
-**Mac OS:**
+**Mac OS:**<br>
 Method 1:
 
 1. Open a new Terminal Window. 
