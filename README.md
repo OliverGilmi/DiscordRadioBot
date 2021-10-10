@@ -36,7 +36,7 @@ You can find out more about what you're allowed to do with this code/project [he
  1. Go to the [Releases page](https://github.com/OliverGilmi/DiscordRadioBot/releases/tag/v1.0.0).
  2. Download the `files.zip` of the latest release.
  3. Now save the .zip-file somewhere on your computer.
- 4. Then extract the .zip-file into an *empty* folder. 
+ 4. Then extract (unzip) the .zip-file into an *empty* folder. 
  
  ### Setting up the Bot
  
