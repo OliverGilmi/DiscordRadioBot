@@ -54,15 +54,16 @@ You can find out more about what you're allowed to do with this code/project [he
     Open `settings.json` with any text editor, like Notepad.<br>
     ([Show as image](https://user-images.githubusercontent.com/64920118/136689745-72c374de-8903-4e01-9f60-05e74b0b2cae.png))
     
- 2. Confirm that it look like this: 
-    ```
-  {
-  "owner": [],
-  "prefix": "",
-  "name": "",
-  "version": "",
-  "token": "",
-  "status": [],
-  "joinloggings": ""
-  }
+ 2. Confirm that it looks something like this: 
+    ```json
+    {<br>
+      "owner": [],<br>
+      "prefix": "",<br>
+      "name": "",<br>
+      "version": "",<br>
+      "token": "",<br>
+      "status": [],<br>
+      "joinloggings": ""<br>
+     }
   ```
+    
