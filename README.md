@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This project contains a fully featured Discord-Radio-Bot made by Ｋｉｍ Ｊｏｎｇ Ａｕｔｉｓｍ#0403 and lxxrxtz#0472.<br> You can use it to **play online streams from radio stations** from all around the world while **categorizing them into countries**. You have the ability to **control the volume**, **who can use the Bot**, **what stations are supported by the Bot** and many other things.<br><br>
+This project contains a fully featured Discord-Radio-Bot made by Ｋｉｍ Ｊｏｎｇ Ａｕｔｉｓｍ#0403 and lxxrxtz#0472.<br> You can use it to **play online streams from radio stations** from all around the world while **categorizing them into countries**. You have the ability to **let the Bot play 24/7/365**, **control the volume**, **who can use the Bot**, **what stations are supported by the Bot** and many other things.<br><br>
 It is written in Java using [JDA](https://github.com/DV8FromTheWorld/JDA) and [Lavaplayer](https://github.com/sedmelluq/lavaplayer).<br>
 You can run it the way it is or modify it yourself, we will most likely not update this due to our time beeing very limited. Find out more on [what you're allowed to do](#what-can-i-do-with-this) and [how to set everything up for yourself](#getting-started-running-the-bot-yourself) below.
 
@@ -164,21 +164,21 @@ Method 1:
    ```
 9. If you want to stop the Bot, simply type `stop` *while in the Bot's console (screen)!* Otherwise you might shut down your entire server.
 
-### Basic usage of the Bot
+## Using the Bot
 
 In the follwing guides, we will refer to the prefix for your Bot with `r!`. If you used something different, you'll have to add that instead.
 
-**Viewing all Commands**
+### Viewing all Commands
 
 To view all commands of the Bot, go to a Discord Text Channel the Bot can access and type `r!help` (or `/help`).<br>
 The Bot will respond with a message, where all commands as well as additional information are listed. 
 
-**Viewing available radio stations**
+### Viewing & playing available Radio-Stations
 
-To get a list of available radio stations per country, type `r!radio` (or `/radio`), then click on the Button with the flag of the county you want to have a list of.<br>
+To get a list of available radio stations per country, type `r!radio` (or `/radio`), then click on the Button with the flag of the county you want to have a list of.<br>Use the command corresponding to the station you want to play, to start the playback.<br>
 If you've just set up your Bot, the lists will be empty and will need to be filled with stations. Read on, to learn how to do so.
 
-**Adding new Radio-Stations**
+### Adding new Radio-Stations
 
 To add new stations to the Bot, your Discord-User-ID needs to be in the `"owner"`-field in the `settings.json` file.
 
@@ -194,9 +194,9 @@ Adding the station to the Bot:
    r!radio -a `command|name|country|streamurl`
    ```
    Replace ... with:
-   - `command` The part after your prefix (the actual command) that shall be used to start the station, e.g. `worldwide` (Then `r!worldwide` would be the command to start the staion.)
+   - `command` The part after your prefix (the actual command) that shall be used to start the station, e.g. `worldwide` (Then `r!worldwide` would be the command to start the station.)
    - `name` Replace with the actual name of your station. 
-   - `country` Replace with one of [these countries](https://user-images.githubusercontent.com/64920118/136698260-c296cf50-c00d-4bcd-99a7-a3722fc67e0c.png)).
+   - `country` Replace with one of [these countries](https://user-images.githubusercontent.com/64920118/136698260-c296cf50-c00d-4bcd-99a7-a3722fc67e0c.png).
    - `streamurl` Paste the URL of the stream here.
 
    Example of what your message should look like in the chat-box:
@@ -206,3 +206,40 @@ Adding the station to the Bot:
 2. Send the message.
 3. The Bot will confirm that the station has been added. 
 4. Check if your station appears in the `r!radio` (`/radio`) and play it using the command you chose, e.g. `r!worldwide` (or using /play worldwide).
+
+### Removing a Radio-Station
+
+To remove stations from the Bot, your Discord-User-ID needs to be in the `"owner"`-field in the `settings.json` file.
+
+1. Type the following into the chat:
+   ```
+   r!radio -r command
+   ```
+   Replace `command` with your station's command. 
+   
+   Example of what your message should look like in the chat-box:
+   ```
+   r!radio -r worldwide
+   ```
+2. Send the message.
+3. The Bot will confirm that the station has been removed.
+
+### Getting the Bot into your channel
+
+When you start a station, the Bot will automatically join your channel. If the Bot shall not play anything, you can also use the `r!join` (`/join`) command.
+
+### Changing the Bot's Volume
+
+To change the Bot's volume, you'll have to use the `r!volume` (`/volume`) command like in this example:
+```
+r!volume 50
+```
+
+### Stopping the Bot
+
+To stop the Bot's playback, type `r!stop` (`/stop`).
+
+### Letting the Bot leave your channel 
+
+To let the Bot leave your channel, use the `r!leave` (`/leave`) command.
+
