@@ -91,7 +91,7 @@ You can find out more about what you're allowed to do with this code/project [he
 
   8. Now comes the really important part: The Token. Go back to your Bot's Dashboard tab and copy the Token. Then paste it inbetween the `""` of the `"token"`-field.<br>
      Be careful not to delete, replace or add any character on accident, because it can cause your Bot to remain offline.<br>
-     Also, never publish the token anywhere - ever. Otherwise, people could perform malicious actions with your application, so you would be responsible for it.
+     Also, never publish the token anywhere - ever. Otherwise, people could perform malicious actions with your application, so you would be responsible for it.<br>
      ([Show as image](https://user-images.githubusercontent.com/64920118/136692232-3d58ce3c-cb27-4f67-a905-b03d203789bc.png))
 
   9. If you want to have custom status(es) for your Bot, fill them into the `[]` of the `"status"`. Insert mutliple ones by seperating them with a comma (`,`).
@@ -106,7 +106,7 @@ You can find out more about what you're allowed to do with this code/project [he
      ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136692183-13d8b32d-f765-4dc7-bb43-14d7437de52b.png))
      
- 10. If you want to get a message everytime your Bot joins a new server, go to a channel, right-click it and hit `Copy ID`.
+ 10. If you want to get a message everytime your Bot joins a new server, go to a channel, right-click it and hit `Copy ID`.<br>
      ([Show as image](https://user-images.githubusercontent.com/64920118/136692351-b73fe9d5-df71-4315-aca9-2db861bf9360.png))
      
  11. Now paste it inbetween the `""` of the `"joinloggings"`-field, it should look similar to this: 
