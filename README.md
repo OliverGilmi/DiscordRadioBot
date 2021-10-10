@@ -52,7 +52,6 @@ You can find out more about what you're allowed to do with this code/project [he
  
  1. You'll now have 3 files in the folder: `DiscordRadioBot.jar`, `settings.json` & `simple-windows-start.bat`.<br>
     Open `settings.json` with any text editor, like Notepad.<br>
-    ([Show as image](https://user-images.githubusercontent.com/64920118/136689745-72c374de-8903-4e01-9f60-05e74b0b2cae.png))
     
  2. Confirm that it looks something like this: 
     ```json
@@ -66,56 +65,55 @@ You can find out more about what you're allowed to do with this code/project [he
       "joinloggings": ""
      }
      ```
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136690769-f89b71a0-1849-41bf-8fd2-5452689dbc9c.png))
   
   3. If you haven't already, enable Discord Developer Mode by goint to `User settings > Advanced > Developer Mode` and turn that on.<br>
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136690816-e33e9a76-4621-4cde-a5ea-59d7c1cab317.png))
      
   4. Go to any server now, right-click your name and then press `Copy ID`.<br>
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136690975-edfdf00e-b2a4-4c2f-8473-0a5d31d9c4ea.png))
 
   5. Now paste it into the `[]` of the `"owner"`-field, it should look similar to this: 
      ```json
      "owner": [439868330996924417],
      ```
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136691022-a9ab8893-103e-4688-b7c6-551723511b40.png))
-
   6. Think of a prefix for your Bot. This could be `!`, `rb!` or even `radio!`. Put it inbetween the `""` of the `"prefix"-field`, it then should look like this:
      ```json
      "prefix": "r!",
      ```
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136691647-456a245c-f60b-4a11-a107-089430db3318.png))
      
   7. Now do the same for the `"name"` (Your Bot's name) & `"version"` (Your Bot's version) field.<br>
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136691853-d7564fa7-ad6c-4869-92b8-6618ecef928a.png))
-
+  
   8. Now comes the really important part: The Token. Go back to your Bot's Dashboard tab and copy the Token. Then paste it inbetween the `""` of the `"token"`-field.<br>
      Be careful not to delete, replace or add any character on accident, because it can cause your Bot to remain offline.<br>
      Also, never publish the token anywhere - ever. Otherwise, people could perform malicious actions with your application, so you would be responsible for it.<br>
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136692232-3d58ce3c-cb27-4f67-a905-b03d203789bc.png))
 
   9. If you want to have custom status(es) for your Bot, fill them into the `[]` of the `"status"`. Insert mutliple ones by seperating them with a comma (`,`).
      Single status:
      ```json
      "status": ["Radio"],
      ```
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136692165-ce59c5bc-283b-42d5-91ac-b5bec1919e40.png))
      Multiple statuses:
      ```json
      "status": ["Radio", "only the best music"],
      ```
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136692183-13d8b32d-f765-4dc7-bb43-14d7437de52b.png))
      
  10. If you want to get a message everytime your Bot joins a new server, go to a channel, right-click it and hit `Copy ID`.<br>
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136692351-b73fe9d5-df71-4315-aca9-2db861bf9360.png))
      
  11. Now paste it inbetween the `""` of the `"joinloggings"`-field, it should look similar to this: 
-     ```
+     ```json
      "joinloggings": "896710085521321995"
      ```
-     ([Show as image](https://user-images.githubusercontent.com/64920118/136692480-429bc98c-6dea-4a99-98e9-7c6e9936acc4.png))
  
- 12. Now save the file and you're good to go.
+ 12. Now the file should look similar to this. If it does, save the file and then you're good to go.
+     ```json
+     {
+       "owner": [439868330996924417],
+       "prefix": "r!",
+       "name": "Radio Bot",
+       "version": "1.0",
+       "token": "ODk2NTAxNjc5MzU5NDE4NDEw.CENSORED.FOR.SAFETY",
+       "status": ["Radio"],
+       "joinloggings": "896710085521321995"
+     }
+     ```
 
 ### Running the Bot
 
