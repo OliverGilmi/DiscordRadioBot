@@ -80,7 +80,7 @@ You can find out more about what you're allowed to do with this code/project [he
      ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136691022-a9ab8893-103e-4688-b7c6-551723511b40.png))
 
-  6. Think of a prefix for your Bot. This could be `!`, `rb!` or even `radio!`. Put it inbetween the `""` of the `"prefix"-field`, it then should look like this
+  6. Think of a prefix for your Bot. This could be `!`, `rb!` or even `radio!`. Put it inbetween the `""` of the `"prefix"-field`, it then should look like this:
      ```
      "prefix": "r!",
      ```
@@ -89,3 +89,34 @@ You can find out more about what you're allowed to do with this code/project [he
   7. Now do the same for the `"name"` (Your Bot's name) & `"version"` (Your Bot's version) field.<br>
      ([Show as image](https://user-images.githubusercontent.com/64920118/136691853-d7564fa7-ad6c-4869-92b8-6618ecef928a.png))
 
+  8. Now comes the really important part: The Token. Go back to your Bot's Dashboard tab and copy the Token. Then paste it inbetween the `""` of the `"token"`-field.<br>
+     Be careful not to delete, replace or add any character on accident, because it can cause your Bot to remain offline.<br>
+     Also, never publish the token anywhere - ever. Otherwise, people could perform malicious actions with your application, so you would be responsible for it.
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136692232-3d58ce3c-cb27-4f67-a905-b03d203789bc.png))
+
+  9. If you want to have custom status(es) for your Bot, fill them into the `[]` of the `"status"`. Insert mutliple ones by seperating them with a comma (`,`).
+     Single status:
+     ```
+     "status": ["Radio"],
+     ```
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136692165-ce59c5bc-283b-42d5-91ac-b5bec1919e40.png))
+     Multiple statuses:
+     ```
+     "status": ["Radio", "only the best music"],
+     ```
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136692183-13d8b32d-f765-4dc7-bb43-14d7437de52b.png))
+     
+ 10. If you want to get a message everytime your Bot joins a new server, go to a channel, right-click it and hit `Copy ID`.
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136692351-b73fe9d5-df71-4315-aca9-2db861bf9360.png))
+     
+ 11. Now paste it inbetween the `""` of the `"joinloggings"`-field, it should look similar to this: 
+     ```
+     "joinloggings": [896710085521321995],
+     ```
+ 
+ 12. Now save the file and you're good to go.
+
+### Running the Bot
+
+
+     
