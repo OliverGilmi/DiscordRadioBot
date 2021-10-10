@@ -106,7 +106,7 @@ You can find out more about what you're allowed to do with this code/project [he
      Single status:
      ```json
      "status": ["Radio"],
-     ```json
+     ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136692165-ce59c5bc-283b-42d5-91ac-b5bec1919e40.png))
      Multiple statuses:
      ```json
