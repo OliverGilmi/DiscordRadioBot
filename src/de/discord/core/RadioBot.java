@@ -99,9 +99,9 @@ public class RadioBot {
 					jsonObject.put("prefix", "");
 					writer.write(jsonObject.toString(2));
 					writer.close();
-					System.out.println("[main] INFO Created setting.json File! For info check https://github.com/OliverGilmi/DiscordRadioBot/blob/main/README.md");
+					System.out.println("[main] INFO Created setting.json File! For more information check https://github.com/OliverGilmi/DiscordRadioBot/blob/main/README.md");
 				} else {
-					System.out.println("[main] ERROR An Error occured while creating the setting.json File, which is required.");
+					System.out.println("[main] ERROR An Error occurred while creating the setting.json File, which is required.");
 				}
 
 				System.out.println("[main] INFO Shutting down in 5 Seconds!");
@@ -115,8 +115,8 @@ public class RadioBot {
 
 		this.botOptions = new JSONObject(new String(Files.readAllBytes(json.toPath()), StandardCharsets.UTF_8));
 		if (!(botOptions.has("token") && botOptions.has("name") && botOptions.has("version") && botOptions.has("owner") && botOptions.has("joinloggings") && botOptions.has("prefix") && botOptions.has("status"))) {
-			System.out.println("[main] ERROR settings.json is malformed! Check https://github.com/OliverGilmi/DiscordRadioBot/blob/main/README.md for help on the settings.json");
-			System.out.println("[main] ERROR You can delete the settings.json in order to create a new settings.json file at the next start");
+			System.out.println("[main] ERROR settings.json is malformed! Check https://github.com/OliverGilmi/DiscordRadioBot/blob/main/README.md for help on the settings.json.");
+			System.out.println("[main] ERROR You can delete the settings.json in order to create a new settings.json file at the next start.");
 			System.out.println("[main] INFO Shutting down in 5 Seconds!");
 
 			try {
@@ -144,12 +144,12 @@ public class RadioBot {
 
 		this.botname = this.botOptions.getString("name");
 		if (this.botname == null || this.botname.length() == 0) {
-			System.out.println("[main] INFO Bot name is empty! Using \"Radio Bot\" as default");
+			System.out.println("[main] INFO No name has been specified! Using \"Radio Bot\" as default.");
 			this.botname = "Radio Bot";
 		}
 
 		if (this.botOptions.getJSONArray("owner") == null || this.botOptions.getJSONArray("owner").length() == 0) {
-			System.out.println("[main] INFO No owner id's provided! Owner commands can't be used");
+			System.out.println("[main] INFO No Owner IDs provided! Owner commands can't be used.");
 		}
 
 		String standardPrefix;
@@ -157,7 +157,7 @@ public class RadioBot {
 			standardPrefix = this.botOptions.getString("prefix");
 		} else {
 			standardPrefix = "rb!";
-			System.out.println("[main] INFO Prefix not set! Using standard prefix \"rb!\"");
+			System.out.println("[main] INFO Prefix not set! Using standard prefix \"rb!\".");
 		}
 
 		String version;
@@ -165,7 +165,7 @@ public class RadioBot {
 			version = this.botOptions.getString("version");
 		} else {
 			version = "1.0.0";
-			System.out.println("[main] INFO Prefix not set! Using \"1.0.0\" as default");
+			System.out.println("[main] INFO Version not set! Using \"1.0.0\" as default.");
 		}
 		CommandListener.v = version;
 
