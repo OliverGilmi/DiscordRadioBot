@@ -77,7 +77,7 @@ You can find out more about what you're allowed to do with this code/project [he
   5. Now paste it into the `[]` of the `"owner"`-field, it should look similar to this: 
   ```
   "owner": [439868330996924417],
-  `` 
+  ```
   ([Show as image](https://user-images.githubusercontent.com/64920118/136691022-a9ab8893-103e-4688-b7c6-551723511b40.png))
 
 
