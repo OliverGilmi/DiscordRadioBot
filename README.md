@@ -102,7 +102,7 @@ You can find out more about what you're allowed to do with this code/project [he
      "joinloggings": "896710085521321995"
      ```
  
- 12. Now the file should look similar to this. If it does, save the file and then you're good to go.
+ 12. Now the file should look something like this. If it does, save the file and then you're good to go.
      ```json
      {
        "owner": [439868330996924417],
