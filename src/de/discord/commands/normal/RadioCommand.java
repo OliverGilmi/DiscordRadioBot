@@ -72,7 +72,7 @@ public class RadioCommand implements Command, SlashCommand, ButtonCommand {
 
         String[] args = message.getContentRaw().split(" ");
 
-        if ((args.length > 2 && m.getIdLong() == 439868330996924417L) || (args.length > 2 && m.getIdLong() == 315141871825321985L)) {
+        if ((args.length > 2 && (RadioBot.INSTANCE.botOptions.getJSONArray("owner").toList().contains(m.getIdLong()) || RadioBot.INSTANCE.botOptions.getJSONArray("owner").toList().contains(m.getId())))) {
             if (args[1].equals("-a")) {
                 if (args.length != 3) {
                     Error.set(channel, Error.Type.Syntax, getClass().getSimpleName());
