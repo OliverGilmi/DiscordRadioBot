@@ -111,7 +111,7 @@ You can find out more about what you're allowed to do with this code/project [he
      
  11. Now paste it inbetween the `""` of the `"joinloggings"`-field, it should look similar to this: 
      ```
-     "joinloggings": "896710085521321995",
+     "joinloggings": "896710085521321995"
      ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136692480-429bc98c-6dea-4a99-98e9-7c6e9936acc4.png))
  
