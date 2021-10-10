@@ -83,13 +83,13 @@ You can find out more about what you're allowed to do with this code/project [he
      ([Show as image](https://user-images.githubusercontent.com/64920118/136690975-edfdf00e-b2a4-4c2f-8473-0a5d31d9c4ea.png))
 
   5. Now paste it into the `[]` of the `"owner"`-field, it should look similar to this: 
-     ```
+     ```json
      "owner": [439868330996924417],
      ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136691022-a9ab8893-103e-4688-b7c6-551723511b40.png))
 
   6. Think of a prefix for your Bot. This could be `!`, `rb!` or even `radio!`. Put it inbetween the `""` of the `"prefix"-field`, it then should look like this:
-     ```
+     ```json
      "prefix": "r!",
      ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136691647-456a245c-f60b-4a11-a107-089430db3318.png))
@@ -104,12 +104,12 @@ You can find out more about what you're allowed to do with this code/project [he
 
   9. If you want to have custom status(es) for your Bot, fill them into the `[]` of the `"status"`. Insert mutliple ones by seperating them with a comma (`,`).
      Single status:
-     ```
+     ```json
      "status": ["Radio"],
-     ```
+     ```json
      ([Show as image](https://user-images.githubusercontent.com/64920118/136692165-ce59c5bc-283b-42d5-91ac-b5bec1919e40.png))
      Multiple statuses:
-     ```
+     ```json
      "status": ["Radio", "only the best music"],
      ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136692183-13d8b32d-f765-4dc7-bb43-14d7437de52b.png))
