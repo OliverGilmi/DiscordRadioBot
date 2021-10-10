@@ -1,15 +1,26 @@
 # DiscordRadioBot
+
 ## What is this?
-This project contains a fully featured Discord-Radio-Bot made by Ｋｉｍ Ｊｏｎｇ Ａｕｔｉｓｍ#0403 and lxxrxtz#0472.<br><br>
+
+This project contains a fully featured Discord-Radio-Bot made by Ｋｉｍ Ｊｏｎｇ Ａｕｔｉｓｍ#0403 and lxxrxtz#0472.<br> You can use it to **play online streams from radio stations** from all around the world while **categorizing them into countries**. You have the ability to **control the volume**, **who can use the Bot**, **what stations are supported by the Bot** and many other things.<br><br>
 It is written in Java using [JDA](https://github.com/DV8FromTheWorld/JDA) and [Lavaplayer](https://github.com/sedmelluq/lavaplayer).<br>
-You can run it the way it is or modify it yourself, we will most likely not update this due to our time beeing very limited. Find out more on what you're allowed to do below.
+You can run it the way it is or modify it yourself, we will most likely not update this due to our time beeing very limited. Find out more on [what you're allowed to do](#what-can-i-do-with-this) and [how to set everything up for yourself](#getting-started-running-the-bot-yourself) below.
 
 ## What can I do with this?
-If you download the files and follow the instructions below on how to setup this Bot, you can run a Discord-Radio-Bot for you, your friends or even everyone.<br>
+
+If you download the files and follow the instructions below on how to setup this Bot, you can **run a Discord-Radio-Bot for you, your friends or even everyone**.<br>
 You can find out more about what you're allowed to do with this code/project [here](https://github.com/OliverGilmi/DiscordRadioBot/blob/main/LICENSE).
 
 ## Getting started: Running the Bot yourself
+
+### Requirements
+
+- A PC running Windows, Mac or Linux and Java 8 or newer ([How to install Java?](https://www.java.com/de/download/help/download_options_de.html))<br>
+ *or*
+ - A V-Server/VPS running a Linux Distribution like Debian or Ubuntu with Java 8 or newer ([How to install Java?](https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html))<br>[**Recommended** | Minimum Specs: 1 Core, 1 GB RAM]
+
 ### Creating a new Discord Bot
+
 1. Create a new Application/Bot in the [Discord Developer Portal](https://discord.com/developers/applications).<br>
  ([Show as image](https://user-images.githubusercontent.com/64920118/136673461-d9fa377e-374f-4f1d-b8a5-7b7f0fcf2fd7.png))
  
@@ -35,10 +46,5 @@ You can find out more about what you're allowed to do with this code/project [he
 8. Now select the server, you want to add your Bot to, then click on `Continue`. Complete the other steps neccessary.<br>
  ([Show as image](https://user-images.githubusercontent.com/64920118/136674048-ef3b4980-5ae9-41c6-8293-aeed289a5126.png))
  
- ### Downloading, Configuring & Running the Bot
- **Requirements:**
- - A PC running Windows, Mac or Linux and Java 8 or newer ([How to install Java?](https://www.java.com/de/download/help/download_options_de.html))<br>
- *or*
- - A V-Server/VPS running a Linux Distribution like Debian or Ubuntu with Java 8 or newer ([How to install Java?](https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html))
-
-**Downloading the Bot:**
+ ### Downloading the Bot
+ 
