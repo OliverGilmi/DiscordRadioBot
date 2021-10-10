@@ -21,7 +21,6 @@ import java.util.*;
 public class SettingsCommand implements Command, ButtonCommand {
 
     public static void setup() {
-        descriptionMap.put(Settings.Setting.FeedbackBan, "Shows you if you are banned from submitting feedback. (This setting can only be changed by the maintainers of " + RadioBot.INSTANCE.getName() + ".)");
         descriptionMap.put(Settings.Setting.AdminOnly, "Disallows users without ADMINISTRATOR Permission to control the music (e.g. change station, volume, etc.).");
         descriptionMap.put(Settings.Setting.MusicRole, "Using this setting you can set a role so only users with that role can control the music (e.g. change station, volume, etc.).");
         descriptionMap.put(Settings.Setting.StageSpeaker, RadioBot.INSTANCE.getName() + " will automatically be the Speaker of the stage channel, but if " + RadioBot.INSTANCE.getName() + " doesn't have Permissions it will just request to speak.");

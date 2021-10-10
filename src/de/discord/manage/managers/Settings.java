@@ -18,7 +18,7 @@ public class Settings {
 
     public final static Settings.Setting[] settingsArray = Setting.values();
 
-    public final static List<Setting> boolSettings = Arrays.asList(Setting.FeedbackBan, Setting.AdminOnly, Setting.StageSpeaker);
+    public final static List<Setting> boolSettings = Arrays.asList(Setting.AdminOnly, Setting.StageSpeaker);
     public final static List<Setting> roleSettings = Arrays.asList(Setting.MusicRole);
 
     public Settings() {
@@ -44,9 +44,9 @@ public class Settings {
         this.settingMap = new HashMap<>();
 
         for (Setting setting : settingsArray){
-            if (setting != Setting.FeedbackBan) {
-                settingMap.put(setting.name().toLowerCase(), setting);
-            }
+
+            settingMap.put(setting.name().toLowerCase(), setting);
+
         }
 
     }
@@ -78,7 +78,7 @@ public class Settings {
     }
 
     public enum Setting {
-        AdminOnly, MusicRole, FeedbackBan, StageSpeaker
+        AdminOnly, MusicRole, StageSpeaker
     }
 
 
@@ -108,7 +108,6 @@ public class Settings {
 
 
                 //Boolean Settings
-                case FeedbackBan:
                 case StageSpeaker:
                 case AdminOnly:
 
@@ -155,7 +154,6 @@ public class Settings {
         public Object getValue(Setting setting) {
 
             switch (setting) {
-                case FeedbackBan:
                 case AdminOnly:
                 case StageSpeaker:
 
