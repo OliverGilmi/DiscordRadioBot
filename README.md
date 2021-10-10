@@ -75,9 +75,17 @@ You can find out more about what you're allowed to do with this code/project [he
      ([Show as image](https://user-images.githubusercontent.com/64920118/136690975-edfdf00e-b2a4-4c2f-8473-0a5d31d9c4ea.png))
 
   5. Now paste it into the `[]` of the `"owner"`-field, it should look similar to this: 
-  ```
-  "owner": [439868330996924417],
-  ```
-  ([Show as image](https://user-images.githubusercontent.com/64920118/136691022-a9ab8893-103e-4688-b7c6-551723511b40.png))
+     ```
+     "owner": [439868330996924417],
+     ```
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136691022-a9ab8893-103e-4688-b7c6-551723511b40.png))
 
+  6. Think of a prefix for your Bot. This could be `!`, `rb!` or even `radio!`. Put it inbetween the `""` of the `"prefix"-field`, it then should look like this
+     ```
+     "prefix": "r!",
+     ```
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136691647-456a245c-f60b-4a11-a107-089430db3318.png))
+     
+  7. Now do the same for the `"name"` (Your Bot's name) & `"version"` (Your Bot's version) field.<br>
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136691853-d7564fa7-ad6c-4869-92b8-6618ecef928a.png))
 
