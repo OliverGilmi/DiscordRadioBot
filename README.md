@@ -111,7 +111,7 @@ First, you have to decide if you want to run the Bot on your computer or on a V-
 If you decided to run the Bot on your computer, follow the instructions below. The first way is always the recommended one.<br>
 
 **Windows:**<br>
-Method 1:
+**Method 1:**
 
 1. Hold `Shift` on your keyboard and right-click an empty spot in the folder containing your Bot's files.<br><br>
 2. Release both keys.<br><br>
@@ -123,23 +123,23 @@ Method 1:
    <br>
 5. You'll now see some messages pop up, meaning your Bot is starting. Shortly after your Bot should appear as `Online` on Discord.<br><br>
 6. You can now minimize this window. *Do not close it!* That will kill the Bot instantly.<br><br>
-7. If you want to stop the Bot, simply type `stop`.
+7. If you want to stop the Bot, simply type `stop`.<br><br>
 
-Method 2:
+**Method 2:**
 
 1. Double click the file `simple-windows-start.bat`.<br><br>
 2. A new window will open.<br><br>
 3. You'll now see some messages pop up, meaning your Bot is starting. Shortly after your Bot should appear as `Online` on Discord.<br><br>
 4. You can now minimize this window. *Do not close it!* That will kill the Bot instantly.<br><br>
-5. If you want to stop the Bot, simply type `stop`.
+5. If you want to stop the Bot, simply type `stop`.<br><br>
 
-Method 3:
+**Method 3:**
 
 1. Double click the file. The Bot will start and should appear as `Online` on Discord. No window will be opened.<br><br>
-2. To stop the Bot, you need to `End Task` via Task-Manager, which is not recommended because the Bot won't be able to save and shut down afterwards properly.
+2. To stop the Bot, you need to `End Task` via Task-Manager, which is not recommended because the Bot won't be able to save and shut down afterwards properly.<br><br>
 
 **Mac OS:**<br>
-Method 1:
+**Method 1:**
 
 1. Open a new Terminal Window. <br><br>
 2. Using the `cd`-Command, navigate to the folder you stored your Bot-files in like this:
@@ -154,9 +154,10 @@ Method 1:
    <br>
 4. You'll now see some messages pop up, meaning your Bot is starting. Shortly after your Bot should appear as `Online` on Discord.<br><br>
 5. You can now minimize this window. *Do not close it!* That will kill the Bot instantly.<br><br>
-6. If you want to stop the Bot, simply type `stop`.
+6. If you want to stop the Bot, simply type `stop`.<br><br>
 
-**Running it on a V-Server/VPS**
+**Running it on a V-Server/VPS**<br>
+**Method 1:**
 
 1. Copy the 3 files (`DiscordRadioBot.jar`, `settings.json` & `simple-windows-start.bat`) into an *empty* folder on your server.<br><br>
 2. Open your Server's Terminal (SSH), e.g. using [Putty](https://www.putty.org).<br><br>
