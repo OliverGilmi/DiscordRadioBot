@@ -22,13 +22,10 @@ public class PlayerManager {
 	public ConcurrentHashMap<RadioStation, AudioPlayer> players;
 	public ConcurrentHashMap<AudioPlayer, AudioPlayerSendHandler> sendHandlers;
 
-	public AudioPlayer maintenancePlayer;
-
 	public PlayerManager() {
 		this.controller = new ConcurrentHashMap<>();
 		this.players = new ConcurrentHashMap<>();
 		this.sendHandlers = new ConcurrentHashMap<>();
-		this.maintenancePlayer = RadioBot.INSTANCE.audioPlayerManager.createPlayer();
 	}
 
 	public MusicController getController(Guild guild) {
