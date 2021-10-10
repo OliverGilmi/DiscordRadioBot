@@ -19,7 +19,7 @@ You can find out more about what you're allowed to do with this code/project [he
 *or*
 - A V-Server/VPS running a Linux Distribution like Debian or Ubuntu with Java 8 or newer ([How to install Java?](https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html))<br>[**Recommended** | Minimum Specs: 1 Core, 1 GB RAM]
 
-### Creating a new Discord Bot
+### Creating a new Discord Bot-Application
 
 1. Create a new Application/Bot in the [Discord Developer Portal](https://discord.com/developers/applications).<br>
 2. Give your Application a name and click `Create`. (Don't worry, you can still change the name later!)<br>
