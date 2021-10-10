@@ -55,7 +55,7 @@ You can find out more about what you're allowed to do with this code/project [he
     ([Show as image](https://user-images.githubusercontent.com/64920118/136689745-72c374de-8903-4e01-9f60-05e74b0b2cae.png))
     
  2. Confirm that it looks something like this: 
-    ```
+    ```json
     {
       "owner": [],
       "prefix": "",
@@ -65,7 +65,7 @@ You can find out more about what you're allowed to do with this code/project [he
       "status": [],
       "joinloggings": ""
      }
-  ```
+     ```
      ([Show as image](https://user-images.githubusercontent.com/64920118/136690769-f89b71a0-1849-41bf-8fd2-5452689dbc9c.png))
   
   3. If you haven't already, enable Discord Developer Mode by goint to `User settings > Advanced > Developer Mode` and turn that on.<br>
