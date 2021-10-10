@@ -66,4 +66,18 @@ You can find out more about what you're allowed to do with this code/project [he
       "joinloggings": ""
      }
   ```
-    
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136690769-f89b71a0-1849-41bf-8fd2-5452689dbc9c.png))
+  
+  3. If you haven't already, enable Discord Developer Mode by goint to `User settings > Advanced > Developer Mode` and turn that on.<br>
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136690816-e33e9a76-4621-4cde-a5ea-59d7c1cab317.png))
+     
+  4. Go to any server now, right-click your name and then press `Copy ID`.<br>
+     ([Show as image](https://user-images.githubusercontent.com/64920118/136690975-edfdf00e-b2a4-4c2f-8473-0a5d31d9c4ea.png))
+
+  5. Now paste it into the `[]` of the `"owner"`-field, it should look similar to this: 
+  ```
+  "owner": [439868330996924417],
+  `` 
+  ([Show as image](https://user-images.githubusercontent.com/64920118/136691022-a9ab8893-103e-4688-b7c6-551723511b40.png))
+
+
