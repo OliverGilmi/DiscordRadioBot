@@ -56,14 +56,14 @@ You can find out more about what you're allowed to do with this code/project [he
     
  2. Confirm that it looks something like this: 
     ```json
-    {<br>
-      "owner": [],<br>
-      "prefix": "",<br>
-      "name": "",<br>
-      "version": "",<br>
-      "token": "",<br>
-      "status": [],<br>
-      "joinloggings": ""<br>
+    {
+      "owner": [],
+      "prefix": "",
+      "name": "",
+      "version": "",
+      "token": "",
+      "status": [],
+      "joinloggings": ""
      }
   ```
     
