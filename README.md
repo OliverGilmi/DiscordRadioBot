@@ -55,7 +55,7 @@ You can find out more about what you're allowed to do with this code/project [he
     ([Show as image](https://user-images.githubusercontent.com/64920118/136689745-72c374de-8903-4e01-9f60-05e74b0b2cae.png))
     
  2. Confirm that it looks something like this: 
-    ```json
+    ```
     {
       "owner": [],
       "prefix": "",
