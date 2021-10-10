@@ -114,6 +114,7 @@ You can find out more about what you're allowed to do with this code/project [he
        "joinloggings": "896710085521321995"
      }
      ```
+     (The Token doesn't look like this, we changed (censored) it for safety reasons explained in step 8.)
 
 ### Running the Bot
 
