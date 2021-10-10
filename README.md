@@ -48,3 +48,21 @@ You can find out more about what you're allowed to do with this code/project [he
  
  ### Downloading the Bot
  
+ ### Setting up the Bot
+ 
+ 1. You'll now have 3 files in the folder: `DiscordRadioBot.jar`, `settings.json` & `simple-windows-start.bat`.<br>
+    Open `settings.json` with any text editor, like Notepad.<br>
+    ([Show as image](https://user-images.githubusercontent.com/64920118/136689745-72c374de-8903-4e01-9f60-05e74b0b2cae.png))
+    
+ 2. Confirm that it look like this: 
+    ```
+  {
+  "owner": [],
+  "prefix": "",
+  "name": "",
+  "version": "",
+  "token": "",
+  "status": [],
+  "joinloggings": ""
+  }
+  ```
