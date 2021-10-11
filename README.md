@@ -27,7 +27,7 @@ You can find out more about what you're allowed to do with this code/project [he
    You need to copy your Bots Application ID, you will need it in step 7.<br><br>
 4. In the left sidebar, click on `Bot`, then click `Add Bot`.<br><br>
 5. Now click `Yes, do it!`.<br><br>
-6. Now that you've added a Bot, to your Application, decide, whether anyone should be able to add the Bot to their server or not. If not, uncheck the precheked option.<br><br> 
+6. Now that you've added a Bot, to your Application, decide, whether anyone should be able to add the Bot to their server or not. If not, uncheck the prechecked option.<br><br> 
 7. Keep the site open, you'll need it again later. In a new tab, open [this site](https://discordapi.com/permissions.html#8).<br>Paste the Application ID you copied in step 4 into the field `Insert client ID here`, afterwards click on the link below that.<br><br>
 8. Now select the server, you want to add your Bot to, then click on `Continue`. Complete the other steps neccessary.
  
@@ -260,3 +260,11 @@ To stop the Bot's playback, type `r!stop` (`/stop`).
 
 To let the Bot leave your channel, use the `r!leave` (`/leave`) command.
 
+## Troubleshooting
+
+## Disclaimer
+
+The files are provided for free for everyone to be used under [these conditions](https://github.com/OliverGilmi/DiscordRadioBot/blob/main/LICENSE).<br>
+Removing credit to us (Credit-Command) in any way is a violation of our [MIT License](https://github.com/OliverGilmi/DiscordRadioBot/blob/main/LICENSE).<br>
+We are also not committed to provide any kind of support, but will most likely be giving it via the [Issues Tab]() or on [our Discord]().<br>
+We do not take any responsibility for the things you do with the code nor provide any kind of warranty.
