@@ -228,7 +228,7 @@ Adding the station to the Bot:
    <br>
 2. Send the message.<br><br>
 3. The Bot will confirm that the station has been added. <br><br>
-4. Check if your station appears in the `r!radio` (`/radio`) and play it using the command you chose, e.g. `r!worldwide` (or using /play worldwide).
+4. Check if your station appears in the `r!radio` (`/radio`) and play it using the command you chose, e.g. `r!worldwide` (or using `/play worldwide`).
 
 ### Removing a Radio-Station
 
