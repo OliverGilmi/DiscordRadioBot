@@ -69,7 +69,8 @@ You can find out more about what you're allowed to do with this code/project [he
      <br>  
   7. Now do the same for the `"name"` (Your Bot's name) & `"version"` (Your Bot's version) field.<br><br>
   8. Now comes the really important part: The Token. Go back to your Bot's Dashboard tab and copy the Token. Then paste it inbetween the `""` of the `"token"`-field.<br>
-     Be careful not to delete, replace or add any character on accident, because it can cause your Bot to remain offline.<br>
+     Be careful not to delete, replace or 
+     any character on accident, because it can cause your Bot to remain offline.<br>
      Also, never publish the token anywhere - ever. Otherwise, people could perform malicious actions with your application, so you would be responsible for it.<br><br>
   9. If you want to have custom status(es) for your Bot, fill them into the `[]` of the `"status"`. Insert mutliple ones by seperating them with a comma (`,`).
      Single status:
@@ -206,7 +207,7 @@ To add new stations to the Bot, your Discord-User-ID needs to be in the `"owner"
 Things you'll need:
 - The Name of your station
 - The Country your station operates in
-- A stream url from/of the station you want to add
+- A stream url from/of the station you want to add<br>
   You can obtain stream urls of many popular stations on a site like [fmstream.org](https://fmstream.org).
   
 Adding the station to the Bot:
