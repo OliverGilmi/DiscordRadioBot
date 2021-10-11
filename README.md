@@ -265,6 +265,6 @@ To let the Bot leave your channel, use the `r!leave` (`/leave`) command.
 ## Disclaimer
 
 The files are provided for free for everyone to be used under [these conditions](https://github.com/OliverGilmi/DiscordRadioBot/blob/main/LICENSE).<br>
-Removing credit to us (Credit-Command) in any way is a violation of our [MIT License](https://github.com/OliverGilmi/DiscordRadioBot/blob/main/LICENSE).<br>
-We are also not committed to provide any kind of support, but will most likely be giving it via the [Issues Tab]() or on [our Discord]().<br>
-We do not take any responsibility for the things you do with the code nor provide any kind of warranty.
+Removing credit to us (Credit-Command, Info-Command) in any way is a violation of our [MIT License](https://github.com/OliverGilmi/DiscordRadioBot/blob/main/LICENSE).<br>
+We are also not committed to provide any kind of support, but will most likely be giving it via the [Issues Tab](https://github.com/OliverGilmi/DiscordRadioBot/issues) or on [our Discord]().<br>
+We do not take any responsibility for the things you do with the code nor provide any kinds of warranty.
