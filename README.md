@@ -68,7 +68,7 @@ You can find out more about what you're allowed to do with this code/project [he
      ```
      <br>  
   7. Now do the same for the `"name"` (Your Bot's name) & `"version"` (Your Bot's version) field.<br><br>
-  8. Now comes the really important part: The Token. Go back to your Bot's Dashboard tab and copy the Token. Then paste it inbetween the `""` of the `"token"`-field.<br>
+  8. Now comes the really important part: The Token. Go back to your Bot's Dashboard tab and reset, then copy the Token. Afterwards paste it inbetween the `""` of the `"token"`-field.<br>
      Be careful not to delete, replace or 
      any character on accident, because it can cause your Bot to remain offline.<br>
      Also, never publish the token anywhere - ever. Otherwise, people could perform malicious actions with your application, so you would be responsible for it.<br><br>
